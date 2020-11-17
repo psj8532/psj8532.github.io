@@ -117,6 +117,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Notion"
+      icon: "fab fa-fw fa-clipboard"
+      url: https://www.notion.so/Sejin-Park-e4a903deb462400f8755762ae3f6e757
 
 # Site Footer
 footer:
