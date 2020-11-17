@@ -120,6 +120,7 @@ author:
     - label: "Notion"
       icon: "fab fa-fw fa-link"
       url: "https://www.notion.so/Sejin-Park-e4a903deb462400f8755762ae3f6e757"
+  links:
     - label: "알고리즘 문제풀이"
       url: "/problem_solving"
 
