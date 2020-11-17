@@ -96,7 +96,7 @@ author:
   name             : "Park Se Jin"
   avatar           : "/assets/images/profile.PNG" # path of avatar image, e.g. 
   bio              : "주니어 개발자"
-  location         : "republic of korea"
+  location         : "Gunpo, Republic of Korea"
   email            : "psj8532@naver.com"
   links:
     - label: "Email"
@@ -120,9 +120,6 @@ author:
     - label: "Notion"
       icon: "fab fa-fw fa-link"
       url: "https://www.notion.so/Sejin-Park-e4a903deb462400f8755762ae3f6e757"
-  links:
-    - label: "알고리즘 문제풀이"
-      url: "/problem_solving"
 
 # Site Footer
 footer:
