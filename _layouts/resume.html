@@ -1,3 +1,107 @@
 ---
 layout: default
 ---
+<style>
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.experiences {
+    padding: 0;
+}
+
+.experience {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.career {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.career__company {
+    color: #3F4650;
+}
+
+.career__position {
+    color: #97AAC3;
+    font-size: 14px;
+}
+
+.career__period {
+    color: #97AAC3;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+</style>
+
+{% assign experiences = site.data.resume.experiences %}
+
+<div class="container">
+    {% include profile.html %}
+    <div class="content">
+        <h2 class="title">
+            Experience
+        </h2>
+        <ul class="experiences">
+            {% for experience in experiences %}
+            <li class="experience">
+                <div class="career">
+                    <div class="career__company">
+                        {{ experience.company}} <br>
+                        <span class="career__position">{{ experience.team }} / {{ experience.job }}</span>
+                    </div>
+                    <div class="career__period">
+                        {{ experience.period.start_date }}
+                        ~
+                        {{ experience.period.end_date }}
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="description">
+                        {{ experience.description }}
+                    </div>
+                    <ul>
+                        {% for project in experience.projects %}
+                            <li>
+                                {{ project.name }}
+                                {% if project.period %}
+                                    ({{ project.period.start_date }}
+                                    ~
+                                    {{ project.period.end_date }})
+                                {% endif %}
+                                <ul>
+                                    {% for task in project.tasks %}
+                                        <li>
+                                            {{ task.name }}
+                                            {% if task.period %}
+                                                ({{ task.period.start_date }}
+                                                ~
+                                                {{ task.period.end_date }})
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

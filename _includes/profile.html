@@ -1,0 +1,57 @@
+{% assign profile = site.data.resume.profile %}
+
+<style>
+    .summary {
+        display: grid;
+        grid-template-columns: 1fr 9fr;
+        gap: 20px;
+    }
+
+    .profile__job,
+    .profile__name {
+        margin: 4px 0;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .profile__job {
+        color: #97AAC3;
+    }
+
+    .avatar {
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    .profile__detail-info {
+        padding: 0;
+    }
+
+    .profile__detail-info-item {
+        list-style-type: none;
+    }
+</style>
+
+<div class="summary">
+    <img
+        src="{{ "/assets/images/avatar.jpeg" | absolute_url }}"
+        alt="avatar"
+        class="avatar"
+    />
+    <div>
+        <p class="profile__name">
+            {{ profile.name }}
+        </p>
+        <p class="profile__job">
+            {{ profile.job }}
+        </p>
+        <ul class="profile__detail-info">
+            <li class="profile__detail-info-item">
+                📞 {{ profile.phone}}
+            </li>
+            <li class="profile__detail-info-item">
+                {{ profile.github }}
+            </li>
+        </ul>
+    </div>
+</div>

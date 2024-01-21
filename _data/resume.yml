@@ -1,3 +1,95 @@
-people:
-  name: Eric Mill
-  github: konklone
+profile:
+  name: "박세진"
+  job: "Front-end Developer"
+  phone: "010-2074-8532"
+  github: "https://github.com/psj8532"
+
+experiences:
+  - company: "딜리셔스"
+    team: "웹프론트엔드개발팀 > 웹프론트커머스파트"
+    job: "웹프론트엔드 개발"
+    position: "웹프론트커머스파트원 / 광고 플랫폼 FE 리딩"
+    period:
+      start_date: "2021.05.10."
+      end_date: "현재"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          In ullamcorper aliquet erat. Sed sem tortor, ultricies ac diam eu, sollicitudin sodales nulla. 
+          Morbi elementum sem sit amet dolor auctor placerat. Mauris lobortis maximus mi, at facilisis diam tempor vitae. 
+          Phasellus ultrices volutpat erat eu pulvinar. Donec at risus ut risus feugiat facilisis. 
+          Donec eu lacinia nibh. Nam ornare ultrices rhoncus. Etiam non risus enim. 
+          Curabitur tincidunt pellentesque augue eu semper. Sed luctus leo eu risus pharetra, eu laoreet enim bibendum. 
+          Etiam scelerisque velit vitae sollicitudin luctus. 
+          Nulla facilisi. Praesent ut dignissim libero. 
+          Nulla sagittis fringilla ipsum, sed ornare nisi commodo eget."
+    projects:
+      - name: "신상마켓 광고 플랫폼 개발"
+        period:
+          start_date: "2021.07.15."
+          end_date: "현재"
+        services:
+          - name: "신상애드"
+          - name: "광고 어드민"
+          - name: "에이전시 플랫폼"
+        tasks:
+          - name: "신규 광고 상품 추가"
+            product:
+              - name: "브랜드광고"
+                period:
+                  start_date: "2021.08.27."
+                  end_date: "2021.10.12."
+              - name: "신상톡광고"
+                period:
+                  start_date: "2023.01.02."
+                  end_date: "2023.02.01."
+              - name: "도매픽광고"
+                period:
+                  start_date: "2023.04.24."
+                  end_date: "2023.06.07."
+          - name: "Vue 프로젝트 전면 리팩토링"
+          - name: "신상애드 React 컨버팅"
+            period:
+              start_date: "2022.09."
+              end_date: "2023.01."
+          - name: "광고 어드민 React 컨버팅"
+            period:
+              start_date: "2023.06."
+              end_date: "2023.09."
+          - name: "에이전시 플랫폼 신규 서비스 출시"
+            period:
+              start_date: "2022.01."
+              end_date: "2022.02."
+      - name: "웹뷰 컨버팅"
+
+  - company: "다우기술"
+    team: "비즈서비스개발부"
+    job: "웹서비스개발"
+    position: "인턴"
+    period:
+      start_date: "2021.03.02."
+      end_date: "2021.03.26."
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          In ullamcorper aliquet erat. Sed sem tortor, ultricies ac diam eu, sollicitudin sodales nulla. 
+          Morbi elementum sem sit amet dolor auctor placerat. Mauris lobortis maximus mi, at facilisis diam tempor vitae. 
+          Phasellus ultrices volutpat erat eu pulvinar. Donec at risus ut risus feugiat facilisis. 
+          Donec eu lacinia nibh. Nam ornare ultrices rhoncus. Etiam non risus enim. 
+          Curabitur tincidunt pellentesque augue eu semper. Sed luctus leo eu risus pharetra, eu laoreet enim bibendum. 
+          Etiam scelerisque velit vitae sollicitudin luctus. 
+          Nulla facilisi. Praesent ut dignissim libero. 
+          Nulla sagittis fringilla ipsum, sed ornare nisi commodo eget."
+
+  - company: "SSAFY(상성 천년 SW 아카데미)"
+    team: "3기"
+    job: "웹 개발"
+    position: "교육생"
+    period:
+      start_date: "2020.01.06."
+      end_date: "2020.12.29."
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          In ullamcorper aliquet erat. Sed sem tortor, ultricies ac diam eu, sollicitudin sodales nulla. 
+          Morbi elementum sem sit amet dolor auctor placerat. Mauris lobortis maximus mi, at facilisis diam tempor vitae. 
+          Phasellus ultrices volutpat erat eu pulvinar. Donec at risus ut risus feugiat facilisis. 
+          Donec eu lacinia nibh. Nam ornare ultrices rhoncus. Etiam non risus enim. 
+          Curabitur tincidunt pellentesque augue eu semper. Sed luctus leo eu risus pharetra, eu laoreet enim bibendum. 
+          Etiam scelerisque velit vitae sollicitudin luctus. 
+          Nulla facilisi. Praesent ut dignissim libero. 
+          Nulla sagittis fringilla ipsum, sed ornare nisi commodo eget."

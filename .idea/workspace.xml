@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed96128d-a67c-4b91-b7ca-143c5bfab002" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_data/resume.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/resume.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resume.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2024-01-20-welcome-to-jekyll.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-01-20-welcome-to-jekyll.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/resume.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/resume.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/parksejin/Desktop/sejin/sjin/psj8532.github.io/assets/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,7 +79,12 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/_pages" />
       <recent name="$PROJECT_DIR$" />
@@ -99,11 +101,23 @@
       <workItem from="1705749162419" duration="2206000" />
       <workItem from="1705751722796" duration="3209000" />
       <workItem from="1705754950960" duration="2648000" />
-      <workItem from="1705796030708" duration="2481000" />
+      <workItem from="1705796030708" duration="10285000" />
+      <workItem from="1705836979747" duration="2998000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
